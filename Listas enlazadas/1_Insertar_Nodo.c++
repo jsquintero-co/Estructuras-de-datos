@@ -13,6 +13,7 @@ nodo* cola;
 
 void insertarNodo();
 void desplegarLista();
+
 int main(){
     int n;
     cout<<"Ingrese cuantos nodos quiere insertar: "<<endl;
@@ -45,6 +46,7 @@ void insertarNodo(){
     cout<<"Nodo insertado \n"<<endl;
 }
 
+//Mostrar la lista
 void desplegarLista(){
     nodo* actual = new nodo;
     actual = cabeza;
